@@ -1,0 +1,202 @@
+git remote add origin https://github.com/semework/Dots_codes_etc.git
+
+Create the branch on your local machine and switch in this branch :
+
+$ git checkout -b [name_of_your_new_branch]
+Change working branch :
+
+$ git checkout [name_of_your_new_branch]
+Push the branch on github :
+
+git push origin [name_of_your_new_branch]
+git push origin --delete newc
+
+
+git pull origin master
+
+git push -u origin master
+git push origin my-new-branch
+
+
+
+
+
+
+git init
+git add .
+git commit -m "This is my first commit!"
+git remote add origin https://github.com/semework/Dots_codes_etc.git
+git branch [branch name]
+
+
+git fetch origin
+
+git checkout -b newc origin/newc
+git merge master
+it checkout master
+git merge --no-ff newc
+
+
+git pull origin master
+
+git push -u origin master
+git push origin my-new-branch
+
+Step 10: Get changes on GitHub back to your computer
+
+
+In order to get the most recent changes that you or others have merged on GitHub, use the git pull origin master command (when working on the master branch).
+
+git pull origin master
+
+git remote -v
+ 
+git remote rm destination
+git branch -d [branch name]
+
+
+
+
+
+
+
+
+
+git branch
+git merge newcode
+git merge newcodes origin
+git merge newcodes master
+git pull origin master
+git push --set-upstream origin newcodes
+
+
+git push origin newc
+git push origin --delete newcodes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+Create the branch on your local machine and switch in this branch :
+
+$ git checkout -b [name_of_your_new_branch]
+Change working branch :
+
+$ git checkout [name_of_your_new_branch]
+Push the branch on github :
+
+$ git push origin [name_of_your_new_branch]
+When you want to commit something in your branch, be sure to be in your branch. Add -u parameter to set upstream.
+
+You can see all branches created by using :
+
+$ git branch
+Which will show :
+
+* approval_messages
+  master
+  master_clean
+Add a new remote for your branch :
+
+$ git remote add [name_of_your_remote] [name_of_your_new_branch]
+Push changes from your commit into your branch :
+
+$ git push [name_of_your_new_remote] [url]
+Update your branch when the original branch from official repository has been updated :
+
+$ git fetch [name_of_your_remote]
+Then you need to apply to merge changes, if your branch is derivated from develop you need to do :
+
+$ git merge [name_of_your_remote]/develop
+Delete a branch on your local filesystem :
+
+$ git branch -d [name_of_your_new_branch]
+To force the deletion of local branch on your filesystem :
+
+$ git branch -D [name_of_your_new_branch]
+Delete the branch on github :
+
+$ git push origin :[name_of_your_new_branch]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=FyAAIHHClqI
+
+
+git config --global user.name "mulugeta semewrok"
+git config --global user.email "mulugetas@gmail.com"
+git config --list
+git status
+git add s2
+git commit -m "add file s2"
+git add s*
+git diff --staged
+git rm s2
+git log -- s2
+
+---gitignore --
+
+touch myapp.pyc
+mkdir logs
+touch logs/log1.log
+touch logs/log2.log
+
+
+
+git clone <ip>
+git add <>
+git commit -a -m ""
+
+git log
+
+git log --all --decorate --online --graph
+alias graph = "git log --all --decorate --online --graph"
+git branch mulugeta
+git branch
+graph
+git checkout mulugeta
+git status
+git diff master..mulugeta
+git graph
+git branch --merged
+git merge master mulugeta
+graph
+git branch -d mulugeta (or -D)
+git merge <another branch> (not directly connected)
+git branch --merged
+
+git checkout -b mulugeta (create branch and checkout)
+git commit -a -m "update"
+
+git merge mulugeta
+conflict;;;;;
+resolve and ...
+git add ., or git add <modified file>
+git commit 
+graph
+git branch -d mulugeta
